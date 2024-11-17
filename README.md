@@ -4,7 +4,7 @@ Link: https://aclanthology.org/2023.findings-emnlp.1032/
 Orginial GitHub Code Link: https://github.com/intuit/sac3/tree/main
 
 
-# **Notebook Title: SAC3 Methodology Implementation and Robustness Testing using CheckList**
+# **Notebook[notebooklink]()**
 ---
 
 ## **Overview**
@@ -151,7 +151,11 @@ This notebook evaluates the robustness and reliability of language models using 
     - Tables 2, 3, 4, and 5 inspired by the SAC3 paper:
         - #### 1. **Table 2: Accuracy for Hallucination Detection in Classification QA Tasks**
             - Fully replicated results from **classification QA tasks** using the Prime and Senator datasets.
-            - ![image.png](attachment:598e31ce-aa5e-4d33-8ab0-ec1745ed74a4.png)
+            | **Method**               | **Prime Number Score** | **Prime Number Confidence** | **Senator Search Score** | **Senator Search Confidence** |
+            |--------------------------|-------------------------|-----------------------------|--------------------------|-------------------------------|
+            | **SC² (gpt-3.5-turbo)**  | 100.0                  | 21.7                        | 27.8                    | 28.3                          |
+            | **SAC³-Q (gpt-3.5-turbo)** | 66.7                  | 16.7                        | 33.3                    | 16.7                          |
+
         - #### 2. **Table 3: Results for Unbalanced Datasets (100% Hallucinated Samples)**
             - Replicated only the **GPT-3 results** due to computational cost and resource constraints.
             - Results involving Falcon-7B and Guanaco-33b were not replicated.
