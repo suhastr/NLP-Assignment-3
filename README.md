@@ -147,10 +147,13 @@ This notebook evaluates the robustness and reliability of language models using 
 
 
 #### **Hallucination Detection Results**
+
 - #### **Generated Tables**
     - Tables 2, 3, 4, and 5 inspired by the SAC3 paper:
+
         - #### 1. **Table 2: Accuracy for Hallucination Detection in Classification QA Tasks**
             - Fully replicated results from **classification QA tasks** using the Prime and Senator datasets.
+
             | **Method**               | **Prime Number Score** | **Prime Number Confidence** | **Senator Search Score** | **Senator Search Confidence** |
             |--------------------------|-------------------------|-----------------------------|--------------------------|-------------------------------|
             | **SC² (gpt-3.5-turbo)**  | 100.0                  | 21.7                        | 27.8                    | 28.3                          |
@@ -159,13 +162,19 @@ This notebook evaluates the robustness and reliability of language models using 
         - #### 2. **Table 3: Results for Unbalanced Datasets (100% Hallucinated Samples)**
             - Replicated only the **GPT-3 results** due to computational cost and resource constraints.
             - Results involving Falcon-7B and Guanaco-33b were not replicated.
-            - ![image.png](attachment:23e61eb7-79d4-42f1-87d2-ed5c5a94a744.png)
-    
+            - #### Partial reproduction of results
+              
+            | **Model**         | **Dataset**      | **SC² Accuracy (%)** | **SAC³-Q Accuracy (%)** |
+            |--------------------|------------------|-----------------------|--------------------------|
+            | GPT-3.5-Turbo      | Prime            | 100.0                | 100.0                   |
+            | GPT-3.5-Turbo      | Senator          | 33.33                | 0.0                     |
+
         - #### 3. **Table 4: Results for Open-Domain Generation QA Tasks**
             - Not replicated due to the high computational cost and memory requirements.
-    
+
         - #### 4. **Table 5: Impact of Thresholds and Model Types on Performance**
             - Not replicated due to limited resources and inability to evaluate multiple model
+
 
 ---
 
