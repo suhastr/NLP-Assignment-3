@@ -1,14 +1,43 @@
 ### Original Paper and Code
 
-Below are the original paper and code that I have cloned to reproduce for my class assignment:
+The following are the original paper and code repository that I referenced and cloned for my class assignment:
 
 - **Paper**: [SAC³: Reliable Hallucination Detection in Black-Box Language Models via Semantic-Aware Cross-Check Consistency](https://aclanthology.org/2023.findings-emnlp.1032/)
 
 - **Original GitHub Repository**: [SAC³ GitHub Code](https://github.com/intuit/sac3/tree/main)
 
+---
+
+### **Note**
+
+- #### The code is thoroughly annotated, and I have provided extensive comments to explain the original code alongside my modifications.
+- #### All required bash scripts are included to facilitate reproduction of results.
+- #### I have incorporated some test types from the [CheckList](https://www.aclweb.org/anthology/2020.acl-main.442/) paper to evaluate the model's robustness.
+
+---
+
+### Reproduced Work
+
+You can access the reproduced work in this [notebook](Reproduced_Work/nlp-assignment-3_version_6.ipynb).
+
+---
+
+### Challenges
+
+- **Resource Constraints**: This has been documented both in the report and below.  
+- **Ambiguity in Instructions**: Reproducing the results was challenging due to unclear instructions.  
+- **Incomplete Code Repository**: The original code repository did not contain a full implementation.  
+
+---
+
+### Contribution
+
+- **Individual Effort**: This work was carried out independently.  
+- **Resource and Time Limitations**: Given the workload and resource constraints, I implemented as much as possible within the available capacity.
 
 
-# **Notebook[notebooklink]()**
+
+# **Overview of the Notebook Reproduced**
 ---
 
 ## **Overview**
