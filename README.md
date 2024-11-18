@@ -20,6 +20,7 @@ The following are the original paper and code repository that I referenced and c
 
 - You can access the reproduced work in this [notebook](Reproduced_Work/nlp-assignment-3_version_6.ipynb).
 - Please download the Notebook for better view.
+- For running the notebook, please refer to this repository as well as the original repository for a more comprehensive understanding. I have done my best to provide clear instructions.
 
 ---
 
